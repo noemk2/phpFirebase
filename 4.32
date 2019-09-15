@@ -1,0 +1,65 @@
+Using version ^4.0@dev for kreait/firebase-php
+./composer.json has been updated
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Package operations: 27 installs, 0 updates, 0 removals
+  - Installing kreait/clock (1.0.1): Downloading (connecting...)Downloading (0%)           Downloading (100%)
+  - Installing psr/simple-cache (dev-master 408d5ea): Cloning 408d5eafb8 from cache
+  - Installing psr/cache (dev-master 78c5a01): Cloning 78c5a01ddb from cache
+  - Installing lcobucci/jwt (3.3.x-dev a11ec5f): Cloning a11ec5f4b4 from cache
+  - Installing ralouphie/getallheaders (3.0.3): Downloading (connecting...)Downloading (0%)           Downloading (100%)
+  - Installing psr/http-message (dev-master efd67d1): Cloning efd67d1dc1 from cache
+  - Installing guzzlehttp/psr7 (1.x-dev 2595b33): Cloning 2595b33c1c from cache
+  - Installing guzzlehttp/promises (dev-master 17d36ed): Cloning 17d36ed176 from cache
+  - Installing guzzlehttp/guzzle (dev-master a7010cc): Cloning a7010cc9b5 from cache
+  - Installing fig/http-message-util (dev-master 50d0bc9): Cloning 50d0bc9262 from cache
+  - Installing kreait/firebase-tokens (1.9.1): Downloading (connecting...)Downloading (0%)           Downloading (15%)Downloading (30%)Downloading (55%)Downloading (70%)Downloading (85%)Downloading (100%)
+  - Installing riverline/multipart-parser (2.0.5): Downloading (connecting...)Downloading (0%)           Downloading (35%)Downloading (65%)Downloading (80%)Downloading (100%)
+  - Installing kreait/gcp-metadata (1.0.1): Downloading (connecting...)Downloading (0%)           Downloading (55%)Downloading (100%)
+  - Installing giggsey/locale (1.7.1): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (60%)Downloading (70%)Downloading (80%)Downloading (90%)Downloading (100%)
+  - Installing giggsey/libphonenumber-for-php (dev-master 2595525): Cloning 2595525e1c from cache
+  - Installing psr/log (dev-master c4421fc): Cloning c4421fcac1 from cache
+  - Installing monolog/monolog (dev-master a053af6): Cloning a053af62ad from cache
+  - Installing firebase/php-jwt (v5.0.0): Downloading (connecting...)Downloading (0%)           Downloading (40%)Downloading (100%)
+  - Installing google/auth (v1.5.2): Downloading (connecting...)Downloading (0%)           Downloading (15%)Downloading (20%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (55%)Downloading (60%)Downloading (70%)Downloading (75%)Downloading (85%)Downloading (90%)Downloading (100%)
+  - Installing rize/uri-template (0.3.2): Downloading (connecting...)Downloading (0%)           Downloading (20%)Downloading (45%)Downloading (65%)Downloading (80%)Downloading (100%)
+  - Installing google/cloud-core (v1.33.0): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing google/crc32 (v0.1.0): Downloading (connecting...)Downloading (0%)           Downloading (15%)Downloading (30%)Downloading (45%)Downloading (60%)Downloading (75%)Downloading (90%)Downloading (100%)
+  - Installing google/cloud-storage (v1.14.0): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing league/flysystem (dev-master b604def): Cloning b604def3fc from cache
+  - Installing superbalist/flysystem-google-storage (7.2.1): Downloading (connecting...)Downloading (0%)           Downloading (65%)Downloading (90%)Downloading (100%)
+  - Installing mtdowling/jmespath.php (2.4.0): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (100%)
+  - Installing kreait/firebase-php (dev-master aad7f36): Cloning aad7f361f0 from cache
+guzzlehttp/psr7 suggests installing zendframework/zend-httphandlerrunner (Emit PSR-7 responses)
+kreait/firebase-tokens suggests installing psr/cache-implementation (to cache fetched remote public keys)
+kreait/firebase-tokens suggests installing psr/simple-cache-implementation (to cache fetched remote public keys)
+monolog/monolog suggests installing ext-amqp (Allow sending log messages to an AMQP server (1.0+ required))
+monolog/monolog suggests installing doctrine/couchdb (Allow sending log messages to a CouchDB server)
+monolog/monolog suggests installing ruflin/elastica (Allow sending log messages to an Elastic Search server)
+monolog/monolog suggests installing aws/aws-sdk-php (Allow sending log messages to AWS services like DynamoDB)
+monolog/monolog suggests installing graylog2/gelf-php (Allow sending log messages to a GrayLog2 server)
+monolog/monolog suggests installing rollbar/rollbar (Allow sending log messages to Rollbar)
+monolog/monolog suggests installing php-console/php-console (Allow sending log messages to Google Chrome)
+monolog/monolog suggests installing ext-mongodb (Allow sending log messages to a MongoDB server (via driver))
+monolog/monolog suggests installing mongodb/mongodb (Allow sending log messages to a MongoDB server (via library))
+monolog/monolog suggests installing php-amqplib/php-amqplib (Allow sending log messages to an AMQP server using php-amqplib)
+monolog/monolog suggests installing elasticsearch/elasticsearch (Allow sending log messages to an Elasticsearch server via official client)
+google/auth suggests installing phpseclib/phpseclib (May be used in place of OpenSSL for signing strings. Please require version ^2.)
+google/cloud-core suggests installing opis/closure (May be used to serialize closures to process jobs in the batch daemon. Please require version ^3.)
+google/cloud-core suggests installing symfony/lock (Required for the Spanner cached based session pool. Please require the following commit: 3.3.x-dev#1ba6ac9)
+google/cloud-storage suggests installing phpseclib/phpseclib (May be used in place of OpenSSL for creating signed Cloud Storage URLs. Please require version ^2.)
+google/cloud-storage suggests installing google/cloud-pubsub (May be used to register a topic to receive bucket notifications.)
+league/flysystem suggests installing league/flysystem-azure (Allows you to use Windows Azure Blob storage)
+league/flysystem suggests installing league/flysystem-webdav (Allows you to use WebDAV storage)
+league/flysystem suggests installing league/flysystem-rackspace (Allows you to use Rackspace Cloud Files)
+league/flysystem suggests installing league/flysystem-cached-adapter (Flysystem adapter decorator for metadata caching)
+league/flysystem suggests installing league/flysystem-eventable-filesystem (Allows you to use EventableFilesystem)
+league/flysystem suggests installing league/flysystem-ziparchive (Allows you to use ZipArchive adapter)
+league/flysystem suggests installing league/flysystem-aws-s3-v2 (Allows you to use S3 storage with AWS SDK v2)
+league/flysystem suggests installing league/flysystem-aws-s3-v3 (Allows you to use S3 storage with AWS SDK v3)
+league/flysystem suggests installing league/flysystem-sftp (Allows you to use SFTP server storage via phpseclib)
+league/flysystem suggests installing spatie/flysystem-dropbox (Allows you to use Dropbox storage)
+league/flysystem suggests installing srmklive/flysystem-dropbox-v2 (Allows you to use Dropbox storage for PHP 5 applications)
+league/flysystem suggests installing ext-ftp (Allows you to use FTP server storage)
+Writing lock file
+Generating autoload files
