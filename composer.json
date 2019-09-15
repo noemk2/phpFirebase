@@ -1,0 +1,14 @@
+{
+    "name": "noe/firebase",
+    "description": "PHP tutorial",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Noe Huaccharaque",
+            "email": "noemk2@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
