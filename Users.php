@@ -3,7 +3,6 @@
 require_once './vendor/autoload.php';
 
 use Kreait\Firebase\Factory;
-use Kreait\Firebase\ServiceAccount;
 
 class Users
 {
@@ -12,8 +11,10 @@ class Users
 
     public function __construct()
     {
-        $acc = ServiceAccount::fromJsonFile(__DIR__ . '/secret/php-tutorial-640b0-f517fd37fac9.json');
-        $firebase = (new Factory)->withServiceAccount($acc)->create();
+        $firebase = (new Factory)
+            ->withServiceAccount('./secret/php-tutorial-640b0-f517fd37fac9.json')
+            ->withDatabaseUri('https://php-tutorial-640b0.firebaseio.com/')
+            ->create();
         $this->database = $firebase->getDatabase();
     }
 
